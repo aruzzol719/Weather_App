@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getWeather } from "./services/weatherApi.jsx";
+import { getWeather } from "./services/weatherApi";
 import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
 import WeatherStats from "./components/WeatherStats";
